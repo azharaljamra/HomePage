@@ -98,14 +98,10 @@ bottomNavigationBar: BottomNavigationBar(type: BottomNavigationBarType.fixed ,it
           children: [
             Row(children: [
 
-
          Expanded(
                      child: Container(margin: EdgeInsets.only(left: 10, top: 10,right: 10), height: 45,
                      decoration:BoxDecoration( color: Color(0xffE9E9E9), borderRadius: BorderRadius.circular(10)) ,child: Row(children: [ Icon(Icons.search), Expanded(child: Text("Search Kyeword"))],),
                                  ),),
-
-
-
 
         Container(
                 margin: EdgeInsets.only(left: 10, top: 5,right: 10),
@@ -144,8 +140,6 @@ bottomNavigationBar: BottomNavigationBar(type: BottomNavigationBarType.fixed ,it
                 Text("Cashback 20%", style: TextStyle( fontSize:25, color:Color(0xffE9E9E9) ),)],
                              ),
             ),
-
-
 Row(
 
   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -200,14 +194,13 @@ SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text("Popular Product", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Color(
+              Text("Popular Product", style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold, color: Color(
                   0xa00c0b0b))),
-              Text("See More", style: TextStyle(fontSize: 15, color: Colors.grey)),
+              Text("See More", style: TextStyle(fontSize: 16, color: Colors.grey)),
             ],
           ),
 
           SizedBox(height: 20),
-
 
           SizedBox(
             height: 200,
